@@ -12,5 +12,5 @@
 
 # Main
 
-Echo "hello world"
+echo "hello world"
 
