@@ -7,11 +7,14 @@
 
 # Declaration of variables
 
+hello="hello world"
+reply="I am working perfectly!"
+
 # Declaration of functions
 
 
 # Main
 
-echo "hello world"
-reply="I am working perfectly!"
+echo $hello
+
 echo $reply
