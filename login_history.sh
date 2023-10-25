@@ -1,10 +1,10 @@
 
 #!/bin/bash
 
-# Script Name:                 add.sh
+# Script Name:                 login_history.sh
 # Author:                       Jason Dallas
 # Date of latest revision:      10/25/2023
-# Purpose:                       adding two numbers
+# Purpose:                       login history of username
 #Execution                    bash add.sh or ./add.sh chmod -x and .sh
 
 # Declaration of variables
