@@ -2,7 +2,7 @@
 Import-Module ActiveDirectory
 
 # Specify the username (samAccountName) of the user
-$userName = "YourUsername"
+$userName = "User"
 
 # Get the user object
 $user = Get-ADUser -Identity $userName
