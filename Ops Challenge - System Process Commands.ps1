@@ -1,3 +1,15 @@
+# Script Name:                  System overiew
+# Author:                       #!/bin/bash
+# Date of latest revision:      11/17/2023
+# Purpose:                      system overview
+
+# Declaration of variables
+
+# Declaration of functions
+
+
+# Main
+
 # Print all active processes ordered by highest CPU time consumption
 Get-Process | Sort-Object CPU -Descending | Format-Table Name, Id, CPU -AutoSize
 
@@ -21,3 +33,5 @@ Get-Process "notepad" | ForEach-Object { Stop-Process -Id $_.Id -Force }
 # Kill a process by its Process Identification Number
 $processToKill = Get-Process -Name "chrome" | Sort-Object CPU -Descending | Select-Object -First 1
 Stop-Process -Id $processToKill.Id -Force
+
+# End
